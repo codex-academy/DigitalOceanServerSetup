@@ -1,0 +1,8 @@
+# Site settings
+title: codex module
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - jemoji
