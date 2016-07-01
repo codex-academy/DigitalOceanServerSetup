@@ -1,0 +1,13 @@
+---
+layout : default
+title : Select SSH Keys .6
+---
+
+
+# Select SSH Keys (Optional)
+
+`Optional`: Select which SSH keys you would like to add to your new Droplet.
+
+![image-title-here](/img/posts_Schematics/extraOption.png){:class="img-responsive"}
+
+<p>It is recommended that you set up SSH keys to authenticate to your Droplets because it provides better security than a basic password. For more information about setting up SSH keys with your DigitalOcean Droplets, refer to this tutorial.</p>
