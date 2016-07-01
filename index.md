@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Index
+title: Deployment Process and Tools on Digitalocean
 ---
 
-# Tools for the deployment on Digitalocean (ubuntu server)
+# Deployment Process and Tools on Digitalocean (ubuntu server)
 ![image-title-here](/img/posts_Schematics/cover.jpg){:class="img-responsive"}
 
 
