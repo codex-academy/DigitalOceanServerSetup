@@ -3,7 +3,7 @@ layout: default
 title: Welcome yourself to the Cloud-Computing.
 ---
 
-#Open a Terminal window to get started.</h3>
+# Open a Terminal window to get started.</h3>
 
 # Step 1 — Initiate the Connection
 
