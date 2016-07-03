@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome yourself to the Cloud-Computing.
+title: Initiate the connection .1
 ---
 
 # Open a Terminal window to get started.</h3>
