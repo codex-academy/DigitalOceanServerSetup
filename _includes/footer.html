@@ -1,14 +1,77 @@
 <footer class="site-footer">
   <nav class="main-nav" id="menu">
-    <ol>
-      {% assign currentpage = page.url %}
-      {% for page in site.pages %}
-        {% unless page.url contains ".css" %}
+    <ul>
+         <li>
+            <a href="{{ site.baseurl }}index.html" {% if page.url == "/" %}class = "active"{% endif %}>Tools for the deployment on Digitalocean (ubuntu server)</a>
+            <ul>
+                <li>
+                    <a href="{{ site.baseurl }}01-SignIn_on_digitalOcean.html" {% if page.url == 01-SignIn_on_digitalOcean.html" %}class = "active"{% endif %}>SignIn with your browser</a>
+                </li>
+            </ul>
+       </li>
+        <ul>
+         <li>
+            <a href="{{ site.baseurl }}02-create_Droplet_step1.html" {% if page.url == "/02-create_Droplet_step1.html" %}class = "active"{% endif %}>Create droplet - Step 1</a>
           <li>
-            <a href="{{ site.baseurl }}{{ page.url }}" {% if currentpage == page.url %}class = "active"{% endif %}>{{ page.title }}</a>
+            <a href="{{ site.baseurl }}03-selectDropletImage.html" {% if page.url == "/03-selectDropletImage.html" %}class = "active"{% endif %}>Select droplet image - Step 2</a>
           </li>
-        {% endunless %}
-      {% endfor %}
-    </ol>
+          <li>
+            <a href="{{ site.baseurl }}04-chosingImageSize.html" {% if page.url == "/04-chosingImageSize.html" %}class = "active"{% endif %}>Chose droplet image size- Step 3</a>
+          </li>
+          <li>
+            <a href="{{ site.baseurl }}05-selectRegion.html" {% if page.url == "/05-selectRegion.html" %}class = "active"{% endif %}>Select Region- Step 4</a>
+          </li>
+          <li>
+            <a href="{{ site.baseurl }}06-additional_Options.html" {% if page.url == "/06-additional_Options.html" %}class = "active"{% endif %}>Select additional Option- Step 5</a>
+          </li>
+          <li>
+            <a href="{{ site.baseurl }}07-Select_SSH_Keys.html" {% if page.url == "/07-Select_SSH_Keys.html" %}class = "active"{% endif %}>Select SSH Keys- Step 6</a>
+          </li>
+          <li>
+            <a href="{{ site.baseurl }}08-NumberAndNamesOfTheDropletsToCreate.html" {% if page.url == "/08-NumberAndNamesOfTheDropletsToCreate.html" %}class = "active"{% endif %}>Select number and names of the Droplets to create- Step 7</a>
+          </li>
+          <li>
+            <a href="{{ site.baseurl }}09-CreateDroplet.html" {% if page.url == "/09-CreateDroplet.html" %}class = "active"{% endif %}>Create Droplet- Step 8</a>
+          </li>
+          <li>
+            <a href="{{ site.baseurl }}10-logInToYourDroplet.html" {% if page.url == "/10-logInToYourDroplet.html" %}class = "active"{% endif %}>Log in to your Droplet- Step 9</a>
+          </li>
+        </ul>
+       <!--second category starts here-->
+          <li>
+            <a href="{{ site.baseurl }}11-WelcomeToCloudTerminal.html" {% if page.url == "/11-WelcomeToCloudTerminal.html" %}class = "active"{% endif %}>Welcome to Cloud Computing</a>
+            <ul>
+                <li>
+                    <a href="{{ site.baseurl }}12-LoginViaTheTerminal.html" {% if page.url == "/12-LoginViaTheTerminal.html" %}class = "active"{% endif %}>Initiate the Connection- step 1</a>
+                  </li>
+                <li>
+                    <a href="{{ site.baseurl }}13-authenticate.html" {% if page.url == "/13-authenticate.html" %}class = "active"{% endif %}>Authenticate- step 2</a>
+                  </li>
+            </ul>
+          </li>
+
+        <!-- new category list -->
+          <li>
+            <a href="{{ site.baseurl }}14.programsInstallationCategory.html" {% if page.url == "/14.programsInstallationCategory.html" %}class = "active"{% endif %}>Setup your Development environment</a>
+            <ul>
+                <li>
+                    <a href="{{ site.baseurl }}15-install_git.html" {% if page.url == "/15-install_git.html" %}class = "active"{% endif %}>Install git</a>
+                  </li>
+                <li>
+                    <a href="{{ site.baseurl }}16-install_mysql.html" {% if page.url == "/16-install_mysql.html" %}class = "active"{% endif %}>Install MySQL</a>
+                  </li>
+            </ul>
+          </li>
+
+        <!-- new category list -->
+          <li>
+            <a href="{{ site.baseurl }}fileNameHolder.html" {% if page.url == "/fileNameHolder.html" %}class = "active"{% endif %}>name</a>
+            <ul>
+                <li>
+                    <a href="{{ site.baseurl }}fileName.html" {% if page.url == "/fileName.html" %}class = "active"{% endif %}>step 1</a>
+                  </li>
+            </ul>
+          </li>
+      </ul>
   </nav>
 </footer>
