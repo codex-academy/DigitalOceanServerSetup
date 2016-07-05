@@ -16,3 +16,8 @@ Full set of instructions that explains the whole process of deploying web applic
 * Setup Development Environment
 
 * Firewall configuration
+
+
+# Outstanding task
+
+* DNS Setup
