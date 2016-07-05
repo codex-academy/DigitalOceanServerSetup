@@ -6,7 +6,8 @@ title : Install MySQL .2
 # 2.Install MySQL
 
 After installing Apache2, the next step is to install MySQL. The M in LAMP stands for MySQL and it’s a database server to host your website content.
-To install MySQL, run the commands below.
+
+<h3>To install MySQL, run the commands below.</h3>
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 `sudo apt-get install mysql-client mysql-server`
