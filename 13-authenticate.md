@@ -16,6 +16,7 @@ eval `ssh-agent -s`
 `ssh-add ~/.ssh/id_rsa`
 
 If you did not add an SSH key to your Droplet, you will be prompted for the temporary password, and you will also be required to change it.
+
 # Follow these steps to complete the login process:
 
 <h3>Copy the temporary password from the email, and paste it into the password prompt</h3>
