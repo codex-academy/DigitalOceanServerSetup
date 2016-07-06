@@ -1,5 +1,9 @@
+---
+layout: default
+title: check the ufw state before modifying the ufw configuration
+---
 
-# Setup
+# Uncomplicated FireWall Setup
 
 # :eyes: Check UFW Status and Rules :eyes:
 
