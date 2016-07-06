@@ -9,6 +9,8 @@ Full set of instructions that explains the whole process of deploying web applic
 
 * Droplet Creation
 
+* DNS Setup
+
 * connection Initiation via the Terminal
 
 * Custom user account Creation
@@ -20,4 +22,4 @@ Full set of instructions that explains the whole process of deploying web applic
 
 # Outstanding task
 
-* DNS Setup
+* Review
