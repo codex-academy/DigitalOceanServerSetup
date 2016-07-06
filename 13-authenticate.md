@@ -32,5 +32,6 @@ At the Retype new UNIX password prompt, enter the same strong password that you 
 
 * Don't forget the new password that you set.
 
+
 You're now logged in! Where To Go From Here?:point_right:
 [Software Installation apt-get and npm](/14.programsInstallationCategory.html).
