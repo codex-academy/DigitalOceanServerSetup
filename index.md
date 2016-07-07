@@ -1,14 +1,13 @@
 ---
 layout: default
-title: Deployment Process and Tools on Digitalocean
+title: DigitalOcean server setup
 ---
 
-# Deployment Process and Tools on Digitalocean (ubuntu server)
-![image-title-here](/img/posts_Schematics/cover.jpg){:class="img-responsive"}
+# DigitalOcean server setup
+![image-title-here](https://www.digitalocean.com/assets/images/logos-badges/png/DO_Logo_Horizontal_Blue-3f9e8fb1.png){:class="img-responsive"}
 
 
 <br />
-0.You first have to open your browser and go to this link [an external link](http://digitalocean.com/).
 
 # Dev Tools(Essentials)
 
