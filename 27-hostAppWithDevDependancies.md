@@ -46,4 +46,36 @@ Go to your browser and type your application url:
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 url=`http://yourDNS:appsPORTNUMBER`
 
-Then you're DONE!  :end:
+OR
+
+If you are arleady on your local machine terminal you can just type do the following depending on the browser of your choice:
+`google-chrome http://yourDNS:appsPORTNUMBER`
+
+<h3>Same Applies for firefox</h3>
+`firefox http://yourDNS:appsPORTNUMBER`
+
+# Just one last Tip to update your application
+
+<h3>software is always changing ...</h3>
+
+* You need to update your app on your your local machine and push your changes to github   
+
+* Connect to your server again and change to your project's directory then run git pull command:
+
+`git pull`
+
+<h3>Remeber!</h3>
+
+* After pulling you have to restart your remote server pm2 program [`application-id`] using the following command:
+
+`pm2 restart your application (process id)`
+
+If you don't know the id of your app you will then type the following command :
+`pm2 status`
+
+(In this case we are having four deployed apps) so the following is going to be our Output ~>
+![image-title-here](/img/posts_Schematics/pm2StatusApplicationId.png){:class="img-responsive"}
+
+You will then follow this procedure again and again :repeat: ...
+
+:clap: Then you're DONE!  :end:
