@@ -2,7 +2,7 @@
   <nav class="main-nav" id="menu">
     <ul>
          <li>
-            <a href="{{ site.baseurl }}index.html" {% if page.url == "/" %}class = "active"{% endif %}>Tools for the deployment on Digitalocean (ubuntu server)</a>
+            <a href="{{ site.baseurl }}index.html" {% if page.url == "/" %}class = "active"{% endif %}>Creating a droplet</a>
             <ul>
                 <li>
                     <a href="{{ site.baseurl }}01-SignIn_on_digitalOcean.html" {% if page.url == "/01-SignIn_on_digitalOcean.html" %}class = "active"{% endif %}>SignIn with your browser</a>
@@ -37,10 +37,9 @@
             <a href="{{ site.baseurl }}10-logInToYourDroplet.html" {% if page.url == "/10-logInToYourDroplet.html" %}class = "active"{% endif %}>Log in to your Droplet</a>
           </li>
         </ul>
-
        <!-- 2nd category starts here-->
           <li>
-            <a href="{{ site.baseurl }}11-WelcomeToCloudTerminal.html" {% if page.url == "/11-WelcomeToCloudTerminal.html" %}class = "active"{% endif %}>Welcome to Cloud Computing</a>
+            <a href="{{ site.baseurl }}11-WelcomeToCloudTerminal.html" {% if page.url == "/11-WelcomeToCloudTerminal.html" %}class = "active"{% endif %}>Connect to server remotely</a>
             <ul>
                 <li>
                     <a href="{{ site.baseurl }}12-LoginViaTheTerminal.html" {% if page.url == "/12-LoginViaTheTerminal.html" %}class = "active"{% endif %}>Initiate the Connection</a>
@@ -53,6 +52,36 @@
         <!-- <end>new 2nd category list</end> -->
 
         <!-- new 3rd category list -->
+          <li>
+
+            <a href="{{ site.baseurl }}20-createasafeaccountCategory.html" {% if page.url == "/20-createasafeaccountCategory.html" %}class = "active"{% endif %}>Setup Secure User Accounts</a>
+            <ul>
+                <li>
+                    <a href="{{ site.baseurl }}21-createasafeaccount.html" {% if page.url == "/21-createasafeaccount.html" %}class = "active"{% endif %}>Create a safe server user account</a>
+                  </li>
+                   <li>
+                    <a href="{{ site.baseurl }}22-userCommandsAsUtility.html" {% if page.url == "/22-userCommandsAsUtility.html" %}class = "active"{% endif %}>Other avilable User Account options</a>
+                  </li>
+            </ul>
+          </li>
+        <!-- <end>new 3rd category list</end> -->
+
+        <!-- new 4th category list -->
+          <li>
+            <a href="{{ site.baseurl }}23-firewallConfiguration.html" {% if page.url == "/23-firewallConfiguration.html" %}class = "active"{% endif %}>Firewall usage and how to Install and Configure a basic one</a>
+            <ul>
+                <li>
+                    <a href="{{ site.baseurl }}24-checkIfInstalledByDefault.html" {% if page.url == "/24-checkIfInstalledByDefault.html" %}class = "active"{% endif %}>Check if UFW is installed</a>
+                </li>
+                <li>
+                    <a href="{{ site.baseurl }}25-ufwConfigurationForhttpServer.html" {% if page.url == "/25-ufwConfigurationForhttpServer.html" %}class = "active"{% endif %}>Firewall Configuration for an http Server</a>
+                </li>
+            </ul>
+          </li>
+
+        <!-- <end>new 4th category list</end> -->
+
+        <!-- new 5th category list -->
           <li>
             <a href="{{ site.baseurl }}14.programsInstallationCategory.html" {% if page.url == "/14.programsInstallationCategory.html" %}class = "active"{% endif %}>Setup your Development environment</a>
             <ul>
@@ -73,37 +102,19 @@
                 </li>
             </ul>
           </li>
-
-        <!-- <end>new 3rd category list</end> -->
-
-        <!-- new 4th category list -->
-          <li>
-            <a href="{{ site.baseurl }}20-createasafeaccountCategory.html" {% if page.url == "/20-createasafeaccountCategory.html" %}class = "active"{% endif %}>Safe user account</a>
-            <ul>
-                <li>
-                    <a href="{{ site.baseurl }}21-createasafeaccount.html" {% if page.url == "/21-createasafeaccount.html" %}class = "active"{% endif %}>Create a safe server user account</a>
-                  </li>
-                   <li>
-                    <a href="{{ site.baseurl }}22-userCommandsAsUtility.html" {% if page.url == "/22-userCommandsAsUtility.html" %}class = "active"{% endif %}>Other avilable User Account options</a>
-                  </li>
-            </ul>
-          </li>
-        <!-- <end>new 4th category list</end> -->
-
-        <!-- new 5th category list -->
-          <li>
-            <a href="{{ site.baseurl }}23-firewallConfiguration.html" {% if page.url == "/23-firewallConfiguration.html" %}class = "active"{% endif %}>Firewall Setup and Configuration</a>
-            <ul>
-                <li>
-                    <a href="{{ site.baseurl }}24-checkIfInstalledByDefault.html" {% if page.url == "/24-checkIfInstalledByDefault.html" %}class = "active"{% endif %}>Check if UFW its installed</a>
-                </li>
-                <li>
-                    <a href="{{ site.baseurl }}25-ufwConfigurationForhttpServer.html" {% if page.url == "/25-ufwConfigurationForhttpServer.html" %}class = "active"{% endif %}>Firewall Configuration for an http Server</a>
-                </li>
-            </ul>
-          </li>
-
         <!-- <end>new 5th category list</end> -->
+
+        <!-- new 6th category list -->
+          <li>
+            <a href="{{ site.baseurl }}26-deployApp.html" {% if page.url == "/26-deployApp.html" %}class = "active"{% endif %}>Deploy your application</a>
+            <ul>
+                <li>
+                    <a href="{{ site.baseurl }}27-hostAppWithDevDependancies.html" {% if page.url == "/27-hostAppWithDevDependancies.html" %}class = "active"{% endif %}>Run your application on the server</a>
+                </li>
+          </li>
+            </ul>
+        <!-- <end>new 6th category list</end> -->
+
       </ul>
   </nav>
 </footer>
