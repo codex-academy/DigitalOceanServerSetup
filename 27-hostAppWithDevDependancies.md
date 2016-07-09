@@ -30,7 +30,7 @@ Then finally you will Install all your npm modules by running the next following
 `sudo npm install -g && sudo npm install --save`
 
 
-`NB` The `-g` flag installs `node_modules` GLOBALLY as a result YOU WILL NOT HAVE `node_modules` folder to Exist in your local project files. The`--save` flag installs `node_modules` folder and it saves it locally inside your project. At this stage you should be having your updated .gitignore file existing because of the (git pull) command that you've ran onto the terminal, no more package.json file modifications should be made thus means this file should be last modified when you first ran npm install `node_module-name` from your personal machine;
+`NB` The `-g` flag installs `node_modules` GLOBALLY as a result YOU WILL NOT HAVE `node_modules` folder to Exist on your local project files. The`--save` flag installs `node_modules` folder and it saves it locally inside your project. At this stage you should be having your updated .gitignore file existing because of the (git pull) command that you've ran onto the terminal, no more package.json file modification. If you want to make other changes then it would mean this file should be last modified when you first ran npm install `node_module-name` from your local machine;
 
 You now need run :
 
@@ -44,15 +44,15 @@ You now need run :
 Go to your browser and type your application url:
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-url=`http://yourDNS:appsPORTNUMBER`
+url=`http://yourServerName:appsPORTNUMBER`
 
 OR
 
 If you are arleady on your local machine terminal you can just type do the following depending on the browser of your choice:
-`google-chrome http://yourDNS:appsPORTNUMBER`
+`google-chrome http://yourServerName:appsPORTNUMBER`
 
 <h3>Same Applies for firefox</h3>
-`firefox http://yourDNS:appsPORTNUMBER`
+`firefox http://yourServerName:appsPORTNUMBER`
 
 # Just one last Tip to update your application
 
