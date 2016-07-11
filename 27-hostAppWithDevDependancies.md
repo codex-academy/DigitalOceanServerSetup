@@ -11,7 +11,7 @@ title : Deploy your application
 Connnect to your server :
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`username@dns`
+`username@serverDomainName`
 
 We would advice you to create your project folder on your home directory using the following command:
 
@@ -19,9 +19,10 @@ We would advice you to create your project folder on your home directory using t
 `mkdir projects && cd projects`
 
 
-After changing to your projects folder you should clone your website git repo with the following command :
+After changing to your /projects folder you should clone your website git repo with the following command :
 
-~/projects $<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">`git clone git@github.com:username/repo.git`
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">`
+git clone git@github.com:username/repo.git`
 
 
 Then finally you will Install all your npm modules by running the next following command:
@@ -35,7 +36,9 @@ Then finally you will Install all your npm modules by running the next following
 You now need run :
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`pm2 start index.js || app.js || server.js`
+`pm2 start index.js`
+
+* you can replace the `index.js` file with` app.js` or `server.js` depending on the express server code that you implemented to your file.
 
 <br/>
 
