@@ -15,4 +15,4 @@ Note. You will be receiving email notifications from Digital Ocean.
 
 NB.`The First email notification you will receive it is going to be your account credentials for that specific (droplet) you've just created.`
 
-<h3>continuation ...  </h3>
+<h3>continuation ... MENU :flashlight: </h3>
