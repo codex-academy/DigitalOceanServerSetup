@@ -37,5 +37,9 @@ If everything looks good, you can enable the firewall by typing:<br />
 
 You will be asked to confirm your selection, so type `"y"` if you wish to continue. This will apply the exceptions you made, block all other traffic, and configure your firewall to start automatically at boot.
 
+<h3>NB.</h3>
+You will no longer be able to log in with your ssh ...
+
+`ssh: connect to host 159.203.92.33 port 22: Connection timed out`
 
 Remember that you will have to explicitly open the ports for any additional services that you may configure later. For more in-depth information, check out our article on configuring the ufw firewall.
