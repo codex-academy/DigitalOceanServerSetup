@@ -7,10 +7,10 @@ title : Deploy your application
 
 <h3>To deploy your application you need to do the following:</h3>
 
-* create an apps folder in your home folder;
+* create an apps folder in your home folder
 
-* clone your application from GitHub into that folder;
+* clone your application from GitHub into that folder
 
-* setup your database on the server;
+* setup your database on the server
 
-* start your application with pm2.
+* start your application with pm2
