@@ -13,7 +13,7 @@ Connnect to your server :
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 `username@serverDomainName`
 
-We would advice you to create your project folder on your home directory using the following command:
+We would advice you to create your projects folder on your home directory using the following command:
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 `mkdir projects && cd projects`
@@ -69,14 +69,20 @@ If you are arleady on your local machine terminal you can just type do the follo
 
 <h3>Remeber!</h3>
 
-* After pulling you have to restart your remote server pm2 program [`application-id`] using the following command:
+* After pulling you have to restart your remote server pm2 program <`application-id`> using the following command:
 
-`pm2 restart your application (process id)`
+`pm2 restart your <application-id>`
+
+OR
+
+pm2 restart your <`application_name`> based on the pm2 first column of <`Diagram.1`> when you where checking pm2 status with the following command `pm2 status`
 
 If you don't know the id of your app you will then type the following command :
 `pm2 status`
 
-(In this case we are having four deployed apps) so the following is going to be our Output ~>
+(In this case we are having four deployed apps) so the following is going to be our Output <strong>~></strong>
+
+# Diagram.1
 ![image-title-here](/img/posts_Schematics/pm2StatusApplicationId.png){:class="img-responsive"}
 
 You will then follow this procedure again and again :repeat: ...
