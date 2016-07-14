@@ -8,11 +8,13 @@ title : Problem with SSH after enabling UFW
 
 <h3> Since you've configured your firewall the following error should be new to you.</h3>
 
-<pre><code>ssh: connect to host 159.203.92.33 port 22: Connection timed out</code></pre> :flushed:
+:flushed: <code>ssh: connect to host 159.203.92.33 port 22: Connection timed out</code>
 
-# Here's a good aproach
+<br />
 
-Add the rule by using the`1.` Web Console in the `2.`access option
+# Here's a good approach
+
+Add the rule by using the`2.` Web Console available from the `1.`access option
 ![image-title-here](img/posts_Schematics/DObrowserConsole.png){:class="img-responsive"}
 
 <h3>now you will get few prompts like the following:</h3>
