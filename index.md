@@ -4,7 +4,7 @@ title: DigitalOcean server setup
 ---
 
 # DigitalOcean server setup
-![image-title-here](https://www.digitalocean.com/assets/images/logos-badges/png/DO_Logo_Horizontal_Blue-3f9e8fb1.png){:class="img-responsive"}
+![image-title-here](/img/posts_Schematics/digital-ocean.jpg){:class="img-responsive"}
 
 <br/>
 

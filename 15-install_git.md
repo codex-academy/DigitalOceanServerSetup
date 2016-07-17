@@ -3,7 +3,7 @@ layout : default
 title : Install GIT .1
 ---
 
-<h3>1.Install GIT</h3>
+<h3>1.Install GIT :octocat:</h3>
 
 Once you have logged on, install GIT (we are going to use GIT to sync our work from github so our projects could exist on our digitalOcean cloud server which is our [VPS/Droplet] )
 
