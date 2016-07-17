@@ -9,4 +9,4 @@ title : Select Your Droplet Region .4
 
 ![image-title-here](/img/posts_Schematics/dropletregion.png){:class="img-responsive"}
 
-`04`.Then for this you need to know which region is the closest from your current region then for a our case we are currently in South Africa. Therefore on our case :us: `New York` is going be our best `datacenter` option to choose.
+`04`.Then for this you need to know which region is the closest from your current region. Therefore on our case :us: `New York` is going be our best `datacenter` option to choose because we're currently in South Africa.
