@@ -21,11 +21,11 @@ Here's the as a response that you will get when ran like following command:
 ![image-title-here](/img/posts_Schematics/firstExGitConfig.png){:class="img-responsive"}
 
 
-# Why
+# Why ?
 
 Because you haven't fully configured you Environment.
 
-# We are going configure the following programs:
+# We are going to start with the following programs:
 
 * continue with Git
 
@@ -35,6 +35,6 @@ Because you haven't fully configured you Environment.
 
 * pm2
 
-* already done with firewall, if not you can go to :point_right: [UFW configuration](/25-ufwConfigurationForhttpServer.html).
+* Already done with firewall, if not you can go to :point_right: [UFW configuration](/25-ufwConfigurationForhttpServer.html).
 
 <h3>Lets start by following the menu on our left hand</h3> :arrow_lower_left:
