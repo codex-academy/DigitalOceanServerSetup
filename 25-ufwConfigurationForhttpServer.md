@@ -1,6 +1,6 @@
 ---
 layout: default
-title: check the ufw state before modifying the ufw configuration
+title: Check the ufw state before modifying the ufw configuration
 ---
 
 # Uncomplicated FireWall Setup

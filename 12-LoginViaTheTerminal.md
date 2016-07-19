@@ -4,8 +4,16 @@ title: Initiate the connection .1
 ---
 
 # Open a Terminal window to get started.</h3>
+you cant quickly go to your Terminal by using the following keys:
+
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+press`ctrl + alt + t`
 
 # Step 1 — Initiate the Connection
+
+Note. You will be receiving email notifications from Digital Ocean.
+
+NB.`The First email notification you will receive it is going to be your account credentials for that specific (droplet) you've just created.`
 
 At the command prompt, enter the following command to attempt to connect to your server as the root user
 

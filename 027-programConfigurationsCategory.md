@@ -25,7 +25,7 @@ Here's the as a response that you will get when ran like following command:
 
 Because you haven't fully configured you Environment.
 
-# We are going to start with the following programs:
+# Programs to be configured:
 
 * continue with Git
 
@@ -37,4 +37,4 @@ Because you haven't fully configured you Environment.
 
 * Already done with firewall, if not you can go to :point_right: [UFW configuration](/25-ufwConfigurationForhttpServer.html).
 
-<h3>Lets start by following the menu on our left hand</h3> :arrow_lower_left:
+Lets start by following the menu on our left hand :arrow_lower_left:
