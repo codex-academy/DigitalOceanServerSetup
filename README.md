@@ -13,11 +13,13 @@ Full set of instructions that explains the whole process of deploying web applic
 
 * connection Initiation via the Terminal
 
-* Setup Development Environment
-
 * Custom user account Creation
 
 * Firewall configuration
+
+* Setup Development Environment
+
+* configurations for a specific program
 
 * Github Synchronization and Run Nodejs Application
 
