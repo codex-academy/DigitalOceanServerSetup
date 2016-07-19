@@ -1,9 +1,9 @@
 ---
 layout : default
-title : configure Git
+title : Git Configuration
 ---
 
-# Configure Git
+# Git Configuration
 
 You can specify your git configuration setup with the git config command in order for git to recognize you commits:
 
