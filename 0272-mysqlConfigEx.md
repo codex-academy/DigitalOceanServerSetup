@@ -31,10 +31,10 @@ To get current version type the following command:
 Now that you know the current version, you can type next command to re-configure mySql:
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-` sudo dpkg-reconfigure mysql-server-<yourCurrentVersion>`
+`sudo dpkg-reconfigure mysql-server-<yourCurrentVersion>`
 
 Remember to type yourCurrentVersion without `< >` signs
 
-Like this: ` sudo dpkg-reconfigure mysql-server-5.5`
+Like this: `sudo dpkg-reconfigure mysql-server-5.5`
 
 With that :sparkles: you're done. :stuck_out_tongue_winking_eye:
