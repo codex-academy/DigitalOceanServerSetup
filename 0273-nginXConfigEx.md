@@ -57,7 +57,7 @@ Then you need to check whether the configuration you've just applied has been sa
 
 * Nothing else should be written on the default file.
 
-Then if so Exit using `ctrl + x` key you will get confirmation message that asks you to save file with default as fileName and then press `y` to save the current changes you made, thereafter you'll be taken out from the terminal text editor.
+Then if so you can Exit by pressing the following keys at once `ctrl + x`, you will get confirmation message that asks you to save file with default as fileName and then press `y` to save the current changes you made, thereafter you'll be taken out from the terminal text editor.
 
 Then you will have to restart nginX service by executing the following command:
 
@@ -66,4 +66,4 @@ Then you will have to restart nginX service by executing the following command:
 
 ![image-title-here](/img/posts_Schematics/nginXStatus.png){:class="img-responsive"}
 
-If you got the same response to the above diagram you should know that your configuration file is on a good state :wink:
+If you got the same response like the diagram above, you should know that your configuration file is on a good state :wink:
