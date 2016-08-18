@@ -13,7 +13,7 @@ If you added an SSH key to your Droplet, and you have the private key installed 
 eval `ssh-agent -s`
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`ssh-add ~/.ssh/id_rsa`
+`LocalMachine`$`ssh-add ~/.ssh/id_rsa`
 
 If you did not add an SSH key to your Droplet, you will be prompted for the temporary password, and you will also be required to change it.
 
@@ -22,11 +22,14 @@ If you did not add an SSH key to your Droplet, you will be prompted for the temp
 <h3>Copy the temporary password from the email, and paste it into the password prompt</h3>
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-At the (current) UNIX password prompt, paste in the temporary password again<br />
+`VirtualPrivateServer [PROMPT]`$ At the (current) UNIX password prompt, paste in the temporary password again<br />
+
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-At the Enter new UNIX password prompt, enter a strong password<br />
+`VirtualPrivateServer [PROMPT]`$ At the Enter new UNIX password prompt, enter a strong password<br />
+
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-At the Retype new UNIX password prompt, enter the same strong password that you just entered.
+`VirtualPrivateServer [PROMPT]`$ At the Retype new UNIX password prompt, enter the same strong password that you just entered.
+
 
 ![image-title-here](/img/posts_Schematics/sshforthefirsttime.png){:class="img-responsive"}
 
