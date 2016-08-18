@@ -8,23 +8,23 @@ title : Additional User Commands
 <h3> How to list your current existing user accounts ? </h3>
  You can do that by enetring the following command-
 
-`users`
+`VirtualPrivateServer`$`users`
 
 
 <h3> How to delete a user account ? </h3>
  You can do that by enetring the following command-
 
-`deluser username`
+`VirtualPrivateServer`$`VirtualPrivateServer`$`deluser username`
 
 <h3> How to give a user sudo access or superuser previllages ? </h3>
  You can do that by enetring the following command-
 
-`su - username`
+`VirtualPrivateServer`$`su - username`
 
 <h3> How would you know if theres a user that has logged and what they are doing at command execution time ? </h3>
  You can do that by enetring the following command -
 
-`w`
+`VirtualPrivateServer`$`w`
 
 Output --|>
 
