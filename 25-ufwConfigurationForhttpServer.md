@@ -8,7 +8,7 @@ title: Check the ufw state before modifying the ufw configuration
 # :eyes: Check UFW Status and Rules :eyes:
 
 At any time, you can check the status of UFW with this command:
-`sudo ufw status verbose`
+`VirtualPrivateServer`$`sudo ufw status verbose`
 
 By default, UFW is disabled so you should see something like this:
 <h3>Output:</h3>
@@ -23,23 +23,23 @@ This is the bare minimum firewall configuration. It will only allow traffic on y
 
 If you plan on running an HTTP web server, you will need to allow access to port 80:<br />
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`sudo ufw allow 80/tcp`
+`VirtualPrivateServer`$`sudo ufw allow 80/tcp`
 
 
 After you've finished adding the exceptions, you can review your selections by typing:<br />
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`sudo ufw show added`
+`VirtualPrivateServer`$`sudo ufw show added`
 
 
 If everything looks good, you can enable the firewall by typing:<br />
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`sudo ufw enable`
+`VirtualPrivateServer`$`sudo ufw enable`
 
 You will be asked to confirm your selection, so type `"y"` if you wish to continue. This will apply the exceptions you made, block all other traffic, and configure your firewall to start automatically at boot.
 
 <h3>NB.</h3>
 You will no longer be able to log in with your ssh ...
 
-`ssh: connect to host 159.203.92.33 port 22: Connection timed out`
+`VirtualPrivateServer`$`ssh: connect to host 159.203.92.33 port 22: Connection timed out`
 
 Remember that you will have to explicitly open the ports for any additional services that you may configure later. For more in-depth information, check out our article on configuring the ufw firewall.
