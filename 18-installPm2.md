@@ -14,4 +14,4 @@ It is going to help you by restarting your node application as a service every t
 
 <h3>Install PM2 by typing the following at the command line:</h3>
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`sudo npm install pm2 -g`
+`VirtualPrivateServer`$`sudo npm install pm2 -g`
