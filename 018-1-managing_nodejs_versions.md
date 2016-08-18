@@ -9,14 +9,14 @@ title : use npm n package to easily manage your nodejs versions
 
 you can do that by typing the following command:
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`sudo npm install -g n`
+`VirtualPrivateServer`$`sudo npm install -g n`
 
 
 # How to easily manage your nodejs versions with the use n ?
 
 <h3>Okay lets first check if you are having n installed by typing the following command:</h3>
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`n --version`
+`VirtualPrivateServer`$`n --version`
 
 <strong>Output ~></strong>
 <pre>2.1.0
@@ -29,15 +29,15 @@ In case your application requires you to have a greater version of nodejs instal
 * You then ask yourself:"How would I know all existing `node versions`?"
 An answer for that, you just have to type the following command:
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`n list`
+`VirtualPrivateServer`$`n list`
 
 <h3>Now install a specific node version</h3>
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`sudo n <versionToBeIntalled>`
+`VirtualPrivateServer`$`sudo n <versionToBeIntalled>`
 
 <h3>Then check your current node version:</h3>
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`node -v`
+`VirtualPrivateServer`$`node -v`
 
 <strong>Output ~></strong>
 Should exactly be the node version that you've just installed. :smiley:
