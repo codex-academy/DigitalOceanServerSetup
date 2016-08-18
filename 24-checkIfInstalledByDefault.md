@@ -10,10 +10,10 @@ title : Assure that is installed .1
 
 <h3>How to check if UFW is installed?</h3>
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`apt-cache policy ufw`
+`VirtualPrivateServer`$`apt-cache policy ufw`
 
 <h2>OR</h2>
 
 <h3>Use check installed program version?</h3>
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`ufw --version`
+`VirtualPrivateServer`$`ufw --version`
