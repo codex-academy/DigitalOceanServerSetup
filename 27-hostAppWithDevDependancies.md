@@ -11,24 +11,24 @@ title : Deploy your application
 Connnect to your server :
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`username@serverDomainName`
+`LocalMachine`$`username@serverDomainName`
 
 We would advice you to create your projects folder on your home directory using the following command:
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`mkdir projects && cd projects`
+`VirtualPrivateServer`$`mkdir projects && cd projects`
 
 
 After changing to your /projects folder you should clone your website git repo with the following command :
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">`
-git clone git@github.com:username/repo.git`
+`VirtualPrivateServer`$git clone git@github.com:username/repo.git`
 
 
 Then finally you will Install all your npm modules by running the next following command:
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`sudo npm install -g && sudo npm install --save`
+`VirtualPrivateServer`$`sudo npm install -g && sudo npm install --save`
 
 
 `NB` The `-g` flag installs `node_modules` GLOBALLY as a result YOU WILL NOT HAVE `node_modules` folder to Exist on your local project files. The`--save` flag installs `node_modules` folder and it saves it locally inside your project. At this stage you should be having your updated .gitignore file existing because of the (git pull) command that you've ran onto the terminal, no more package.json file modification. If you want to make other changes then it would mean this file should be last modified when you first ran npm install `node_module-name` from your local machine;
@@ -36,7 +36,7 @@ Then finally you will Install all your npm modules by running the next following
 You now need run :
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`pm2 start index.js`
+`VirtualPrivateServer`$`pm2 start index.js`
 
 * you can replace the `index.js` file with` app.js` or `server.js` depending on the express server code that you implemented to your file.
 
@@ -65,20 +65,21 @@ If you are arleady on your local machine terminal you can just type do the follo
 
 * Connect to your server again and change to your project's directory then run git pull command:
 
-`git pull`
+`VirtualPrivateServer`$`git pull`
 
 <h3>Remeber!</h3>
 
 * After pulling you have to restart your remote server pm2 program <`application-id`> using the following command:
 
-`pm2 restart your <application-id>`
+`VirtualPrivateServer`$`pm2 restart your <application-id>`
 
 OR
 
-pm2 restart your <`application_name`> based on the pm2 first column of <`Diagram.1`> when you where checking pm2 status with the following command `pm2 status`
+pm2 restart your <`application_name`> based on the pm2 first column of <`Diagram.1`> when you where checking pm2 status with the following command :
+`VirtualPrivateServer`$`pm2 status`
 
 If you don't know the id of your app you will then type the following command :
-`pm2 status`
+`VirtualPrivateServer`$`pm2 status`
 
 (In this case we are having four deployed apps) so the following is going to be our Output <strong>~></strong>
 
