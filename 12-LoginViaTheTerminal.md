@@ -20,11 +20,11 @@ At the command prompt, enter the following command to attempt to connect to your
 
 (subsitute the highlight word(*SERVER_IP_ADDRESS*) with your server's IP address):
 
-`ssh root@SERVER_IP_ADDRESS`
+`LocalMachine`$`ssh root@SERVER_IP_ADDRESS`
 
 For example, if the server IP address was `123.456.789.123`, the command would look like this:<br />
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`ssh root@123.456.789.123`
+`LocalMachine`$`ssh root@123.456.789.123`
 
 <h3>The first time you attempt to connect to your server, you will likely see a warning that looks like this:</h3>
 
@@ -50,7 +50,7 @@ It is also possible that a host key has just been changed.
 If this is the case, your new droplet probably has the same IP address as the old, destroyed droplet, but a different host SSH key. This is fine, and you can remove the warning, by deleting the old droplet's host key from your system, by running this command:
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`ssh-keygen -R SERVER_IP_ADDRESS`
+`VirtualPrivateServer`$`ssh-keygen -R SERVER_IP_ADDRESS`
 Now try connecting to your server again.
 
 <h3>Now that you know your IP from the account credentials that you have received on your email you need to have a custom (DNS~>|Domain Name Server|)</h3>
@@ -67,7 +67,7 @@ you will have to type the following url `user.projectcodex.co:3000` on your brow
 
 Then after consulting codeX mentor you would then be able to connect to your droplet server using the following command example :
 
-`ssh user@ServerName`
+'LocalMachine'$`ssh user@ServerName`
 
 * remember user could be the `root account` and ServerName could then be replaced with your `IP address` which it would result on you having to type the following command like the following:
 
