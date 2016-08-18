@@ -15,7 +15,7 @@ Is that an error ??? `NO`
 We need to first change to a specific nginX folder that contains a default configuration file by typing the following:
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`cd /etc/nginx/sites-available/`
+`VirtualPrivateServer`$`cd /etc/nginx/sites-available/`
 
 If you can list all the files on that are inside the [sites-available] directory you should only see one file which is the file named:`default`
 
@@ -27,7 +27,7 @@ Got it
 Then you can proceed and edit that file by typing:
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`sudo nano default`
+`VirtualPrivateServer`$`sudo nano default`
 
 There would be a bunch of commented out lines and as a suggestion, you need to cleanup that file and have a your default configuration setup similar to the following example:
 <pre>
@@ -49,7 +49,7 @@ You will need to replace `serverDomainName` with your own serverDomainName. Same
 Then you need to check whether the configuration you've just applied has been saved by executing the previous following command:
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`nano default`
+`VirtualPrivateServer`$`nano default`
 
 <h3>output should be like the following~></h3>
 
@@ -62,7 +62,7 @@ Then if so you can Exit by pressing the following keys at once `ctrl + x`, you w
 Then you will have to restart nginX service by executing the following command:
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`sudo service nginx restart`
+`VirtualPrivateServer`$`sudo service nginx restart`
 
 ![image-title-here](/img/posts_Schematics/nginXStatus.png){:class="img-responsive"}
 
