@@ -10,13 +10,15 @@ Now lets say we are done with all the installations then how would you gain acce
 Lets make an example of Git, now you just discovered that you should make a small change on your application files and you modified app.js file
 Then your ran
 
-`git add app.js` :white_check_mark:
+`VirtualPrivateServer`$`git add app.js` :white_check_mark:
 
-Then you cannot really commit your file changes from server till you get the configuration part done.
+Then you cannot really commit your file changes from the server till you get the configuration part done.
 
-Here's the as a response that you will get when ran like following command:
+As a result of the following git command which you would then execute:
 
-`git commit-m "I just made some specific change"` :x:
+`VirtualPrivateServer`$`git commit -m "I just made some specific change"` :x:
+
+then you will get the following message :
 
 ![image-title-here](/img/posts_Schematics/firstExGitConfig.png){:class="img-responsive"}
 
