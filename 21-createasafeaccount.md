@@ -46,7 +46,7 @@ Enter the new value, or press `ENTER` for the default
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 Is the information correct?
-`[Y/n]`Y
+`VirtualPrivateServer`$`[Y/n]`Y
 
 * You can leave these blank if you don't need this info for your new user.
 
