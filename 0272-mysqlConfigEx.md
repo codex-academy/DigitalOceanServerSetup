@@ -17,13 +17,13 @@ If you have already got your database code on your script and you are using root
 In order to configure it, we would have to terminate mySql process by executing the following command:
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`sudo service mysql stop`
+`VirtualPrivateServer`$`sudo service mysql stop`
 
 Then to start with the configuration you will then need to know the current version.
 To get current version type the following command:
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`mysql --version` :white_check_mark:
+`VirtualPrivateServer`$`mysql --version` :white_check_mark:
 
  and it would not allow you to use the following method for version checking:
  `mysql -v`  :x:
@@ -31,7 +31,7 @@ To get current version type the following command:
 Now that you know the current version, you can type next command to re-configure mySql:
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`sudo dpkg-reconfigure mysql-server-<yourCurrentVersion>`
+`VirtualPrivateServer`$`sudo dpkg-reconfigure mysql-server-<yourCurrentVersion>`
 
 Remember to type yourCurrentVersion without `< >` signs
 
