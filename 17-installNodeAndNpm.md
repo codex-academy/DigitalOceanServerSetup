@@ -11,9 +11,9 @@ title : Install Nodejs and NPM .3
 <h2>Install nodejs:</h2>
 
 3.a)<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
- `sudo apt-get install nodejs` <br />
+ `VirtualPrivateServer`$`sudo apt-get install nodejs` <br />
 
 <h2>Then install npm:</h2>
 
 3.b)<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
- `sudo apt-get install npm`
+ `VirtualPrivateServer`$`sudo apt-get install npm`
