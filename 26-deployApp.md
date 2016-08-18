@@ -5,7 +5,7 @@ title : Deploy your application
 
 # DEPLOY YOUR APPLICATION
 
-<h3>To deploy your application you need to do the following:</h3>
+<h3>To deploy your application your `VirtualPrivateServer`$ and you need to do the following:</h3>
 
 * create an apps folder in your home folder
 
