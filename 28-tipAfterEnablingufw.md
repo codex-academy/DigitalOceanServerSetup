@@ -25,6 +25,6 @@ Then you will be asked for your password and that should be the same exact passw
 <h3>Thereafter you can type your command as the following:</h3>
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`sudo ufw allow ssh`
+`VirtualPrivateServer`$`sudo ufw allow ssh`
 
 <h3>You can then add more rules via the web console whenever you like but reasonably with purpose ...</h3>
