@@ -9,7 +9,7 @@ Lets simplify our deployment update cycle by adding a new configuration file so 
 
 
 We have to first generate this with the following command:
-`pm2 ecosystem`
+`VirtualPrivateServer`$`pm2 ecosystem`
 
 <h3>Output~></h3>
 File /home/user-account/ecosystem.json generated
@@ -19,7 +19,7 @@ Then you have to be able to easily navigate to this file by using the following 
 `ls`
 
 You then have to open it and see hows it done before modifications wiht the following command:
-`sudo nano ecosystem.json`
+`VirtualPrivateServer`$`sudo nano ecosystem.json`
 
 # full pm2's ecosystem.json File configuration overview
 
