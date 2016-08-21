@@ -14,7 +14,16 @@ title : Additional User Commands
 <h3> How to delete a user account ? </h3>
  You can do that by enetring the following command-
 
-`VirtualPrivateServer`$`deluser username`
+`jrjgio ut  ig s]-sr soijgf ofijg fspo sfho sfpogf i sioh gskj sfojg spgj gfipgknfh ofmh [ofj hdrjrs y[po  [pfuigh poj troj ojty rotjy rtoj yojrty [aoeitj jrt[r[ou [jg ojt ietio t jt [ert eootietu ut [etu [ertio iou ioeut eiotu [rt eryt9ert8 e9t8eyt eortj fgux fih f g
+ stou rstus
+ tyury
+ ruyr
+ tyurty
+ rtuo r
+ t r  2i0   
+ 24i 2t5
+ ei y
+ yi ersiuaerp9ut t aiot idfih[o erw 8y[9tr 8y9 atr 8iy9o 9aerrrrrrrrrrrrrVirtualPrivateServer`$`deluser username`
 
 <h3> How to give a user sudo access or superuser previllages ? </h3>
  You can do that by enetring the following command-
