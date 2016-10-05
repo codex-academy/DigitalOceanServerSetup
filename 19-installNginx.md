@@ -14,7 +14,7 @@ Following the steps below will show you how to install Nginx and test its functi
 <h3>Install Nginx with command</h3>
 
 5.a)<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-`VirtualPrivateServer`$`apt-get install Nginx`
+`VirtualPrivateServer`$`apt-get install nginx`
 
 By default, Nginx will not start automatically, so you need to use the following command. Other valid options are `stop` and `restart`.
  To restart we need to run the following command:
